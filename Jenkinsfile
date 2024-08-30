@@ -65,7 +65,7 @@ pipeline {
             emailext (
                 subject: "Jenkins Pipeline: ${currentBuild.fullDisplayName}",
                 body: "Pipeline completed with status: ${currentBuild.currentResult}",
-                to: 'your-email@example.com',
+                to: 'saikumarch83@gmail.com',
                 attachLog: true
             )
         }
